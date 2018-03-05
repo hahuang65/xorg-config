@@ -1,19 +1,22 @@
-#define base00 #28211c
-#define base01 #36312e
-#define base02 #5e5d5c
-#define base03 #666666
-#define base04 #797977
-#define base05 #8a8986
-#define base06 #9d9b97
-#define base07 #baae9e
-#define base08 #cf6a4c
-#define base09 #cf7d34
-#define base0A #f9ee98
-#define base0B #54be0d
-#define base0C #afc4db
-#define base0D #5ea6ea
-#define base0E #9b859d
-#define base0F #937121
+! Base16 Dracula
+! Scheme: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+
+#define base00 #282936
+#define base01 #3a3c4e
+#define base02 #4d4f68
+#define base03 #626483
+#define base04 #62d6e8
+#define base05 #e9e9f4
+#define base06 #f1f2f8
+#define base07 #f7f7fb
+#define base08 #ea51b2
+#define base09 #b45bcf
+#define base0A #00f769
+#define base0B #ebff87
+#define base0C #a1efe4
+#define base0D #62d6e8
+#define base0E #b45bcf
+#define base0F #00f769
 
 *foreground:   base05
 #ifdef background_opacity
