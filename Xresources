@@ -46,7 +46,7 @@
 
 URxvt.loginShell: true
 URxvt.scrollBar: false
-URxvt.font: xft:Deja Vu Sans Mono:style=Regular:size=14
+URxvt.font: xft:Deja Vu Sans Mono:style=Regular:size=13
 URxvt.letterSpace: -1
 URxvt.perl-ext-common: keyboard-select
 URxvt.keysym.M-s: perl:keyboard-select:activate
