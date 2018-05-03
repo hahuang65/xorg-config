@@ -1,48 +1,47 @@
-! Base16 Dracula
-! Scheme: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
+#define base0   #0c1014
+#define base1   #11151c
+#define base2   #091f2e
+#define base3   #0a3749
+#define base4   #245361
+#define base5   #599cab
+#define base6   #99d1ce
+#define base7   #d3ebe9
+#define red     #c23127
+#define orange  #d26937
+#define yellow  #edb443
+#define magenta #888ca6
+#define violet  #4e5166
+#define blue    #195466
+#define cyan    #33859e
+#define green   #2aa889
 
-#define base00 #282936
-#define base01 #3a3c4e
-#define base02 #4d4f68
-#define base03 #626483
-#define base04 #62d6e8
-#define base05 #e9e9f4
-#define base06 #f1f2f8
-#define base07 #f7f7fb
-#define base08 #ea51b2
-#define base09 #b45bcf
-#define base0A #00f769
-#define base0B #ebff87
-#define base0C #a1efe4
-#define base0D #62d6e8
-#define base0E #b45bcf
-#define base0F #00f769
+*.foreground:  base6
+*.background:  base0
+*.cursorColor: base6
 
-*foreground:   base05
-#ifdef background_opacity
-*background:   [background_opacity]base00
-#else
-*background:   base00
-#endif
-*cursorColor:  base05
+*.color0:      base0
+*.color8:      base1
 
-*color0:       base00
-*color1:       base08
-*color2:       base0B
-*color3:       base0A
-*color4:       base0D
-*color5:       base0E
-*color6:       base0C
-*color7:       base05
+*.color1:      red
+*.color9:      orange
 
-*color8:       base03
-*color9:       base09
-*color10:      base01
-*color11:      base02
-*color12:      base04
-*color13:      base06
-*color14:      base0F
-*color15:      base07
+*.color2:      green
+*.color10:     base2
+
+*.color3:      yellow
+*.color11:     base4
+
+*.color4:      blue
+*.color12:     base3
+
+*.color5:      violet
+*.color13:     magenta
+
+*.color6:      cyan
+*.color14:     base5
+
+*.color7:      base6
+*.color15:     base7
 
 URxvt.loginShell: true
 URxvt.scrollBar: false
