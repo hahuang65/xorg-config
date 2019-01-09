@@ -42,13 +42,3 @@
 
 *.color7:      base6
 *.color15:     base7
-
-URxvt.loginShell: true
-URxvt.scrollBar: false
-URxvt.scrollTtyKeypress: true
-URxvt.scrollTtyOutput: false
-URxvt.saveLines: 8192
-URxvt.font: xft:Input:style=Regular:size=13:antialias=true
-URxvt.perl-ext-common: keyboard-select
-URxvt.keysym.M-s: perl:keyboard-select:activate
-
